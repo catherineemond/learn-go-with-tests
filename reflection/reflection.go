@@ -2,7 +2,7 @@ package main
 
 import "reflect"
 
-// unfinished: I still need to take into account other ossible input, e.g. arrays or channels
+// unfinished: I still need to take into account other possible input, e.g. arrays or channels
 func walk(x interface{}, fn func(string)) {
 	val := getValue(x)
 	numberOfValues := 0
